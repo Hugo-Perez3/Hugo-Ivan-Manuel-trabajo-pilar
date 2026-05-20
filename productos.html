@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Productos</title>
+
+  <style>
+    body{
+      font-family:Arial;
+      background:#f4f4f4;
+      margin:0;
+    }
+
+    header{
+      background:black;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    .productos{
+      display:flex;
+      justify-content:center;
+      gap:20px;
+      padding:40px;
+      flex-wrap:wrap;
+    }
+
+    .card{
+      background:white;
+      width:250px;
+      padding:20px;
+      border-radius:10px;
+      text-align:center;
+      box-shadow:0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .card img{
+      width:100%;
+      border-radius:10px;
+    }
+
+    .precio{
+      color:green;
+      font-size:22px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Nuestros Productos</h1>
+</header>
+
+<section class="productos">
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h2>Zapatos Deportivos</h2>
+    <p class="precio">59€</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h2>Zapatos Elegantes</h2>
+    <p class="precio">89€</p>
+  </div>
+
+  <div class="card">
+    <img src="https://via.placeholder.com/250" alt="">
+    <h2>Zapatillas Urbanas</h2>
+    <p class="precio">69€</p>
+  </div>
+
+</section>
+
+</body>
+</html>
